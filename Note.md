@@ -1,3 +1,4 @@
+
 # First Week  
 
 - Have a better understanding of the Variational Quantum Eigensolver (VQE) mechanisms.
@@ -87,7 +88,15 @@ The variational quantum eigensolver is a quantum-classical hybrid algorithm that
 
 - MB-VQE shifts the challenge from performing multi-qubits gates to  creating an entangled initial state. 
 
-- 
+- Toric code model, key idea: I don't start from a random state in the Hilbert space, rather I choose an ansatz state $\ket{\psi_a}$ located in a region in the Hilbert space. 
+
+- To make the computation deterministic, so-called byproduct operators and adaptive measurements are required. 
+
+- Photonic quantum systems 
+
+- MB-VQEs are advantageous whenever a perturbation $H_p$ is added to a Hamiltonian $H_0$ whose ground state, used as ansatz state $\ket{\psi_a}$, is a stabilizer state or a graph state. 
+
+**general framework**: 
 # Deterministic Ansatze for the MBVQE (Schroeder, Heller and Gachechiladze)
 - The study introduces MBVQE-ansatze that respect determinism.
 
