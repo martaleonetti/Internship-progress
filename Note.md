@@ -24,6 +24,8 @@ Following...
 Some ideas:
 -
 -
+- Spin system Hamiltonians 
+
 ...
 
 # Interesting articles 
@@ -76,6 +78,14 @@ The variational quantum eigensolver is a quantum-classical hybrid algorithm that
 # A measurement-based variational quantum eigensolver (2021)
 
 - Propose a new approach to VQEs using the principles of MBQC. 
+
+- Development of a new variational technique based on MBQC, that we call measurement-based VQE.
+- Protocols determine the ground state of a target Hamiltonian. 
+
+- Use a tailored entangled state called "custum state" that allows for exploring an appropriate corner of the system's Hilbert space. This custom state includes auxiliary qubits which, once measured, modify the state of the output qubits. (edge-decoration). 
+- Start from an ansatz state represented as a graph, this ansatz is modified adding other qubits, these qubits are measured in rotated basis R($\theta$), where $\theta$ are the variational parameters.
+
+- MB-VQE shifts the challenge from performing multi-qubits gates to  creating an entangled initial state. 
 
 - 
 # Deterministic Ansatze for the MBVQE (Schroeder, Heller and Gachechiladze)
