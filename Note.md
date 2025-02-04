@@ -80,15 +80,16 @@ The variational quantum eigensolver is a quantum-classical hybrid algorithm that
 
 - Propose a new approach to VQEs using the principles of MBQC. 
 
-- Development of a new variational technique based on MBQC, that we call measurement-based VQE.
+- Development of a new variational technique based on MBQC: called measurement-based VQE.
 - Protocols determine the ground state of a target Hamiltonian. 
 
 - Use a tailored entangled state called "custum state" that allows for exploring an appropriate corner of the system's Hilbert space. This custom state includes auxiliary qubits which, once measured, modify the state of the output qubits. (edge-decoration). 
+
 - Start from an ansatz state represented as a graph, this ansatz is modified adding other qubits, these qubits are measured in rotated basis R($\theta$), where $\theta$ are the variational parameters.
 
 - MB-VQE shifts the challenge from performing multi-qubits gates to  creating an entangled initial state. 
 
-- Toric code model, key idea: I don't start from a random state in the Hilbert space, rather I choose an ansatz state $\ket{\psi_a}$ located in a region in the Hilbert space. 
+- **Toric code model**
 
 - To make the computation deterministic, so-called byproduct operators and adaptive measurements are required. 
 
@@ -96,7 +97,8 @@ The variational quantum eigensolver is a quantum-classical hybrid algorithm that
 
 - MB-VQEs are advantageous whenever a perturbation $H_p$ is added to a Hamiltonian $H_0$ whose ground state, used as ansatz state $\ket{\psi_a}$, is a stabilizer state or a graph state. 
 
-**general framework**: 
+
+
 # Deterministic Ansatze for the MBVQE (Schroeder, Heller and Gachechiladze)
 - The study introduces MBVQE-ansatze that respect determinism.
 
